@@ -61,6 +61,9 @@ export class ScoreNumber extends AcGameObject {
         if (this.level_number < 10) {
             this.increment_target_number += 270;
         }
+        else if (this.level_number >= 10) {
+            this.increment_target_number = 1500;
+        }
     }
 
     add_POS() {
