@@ -12,5 +12,7 @@
 npm install live-server -g
 cd GoldMiner-Vercel
 live-server
+or
+live-server --port=<port>
 ```
 
