@@ -57,7 +57,7 @@ export class ScoreNumber extends AcGameObject {
     // 更新目标分数
     update_target_number() {
         this.target_number += this.increment_target_number;
-        // 超过10关后每关目标分增长量固定，2705
+        // 超过10关后每关目标分增长量固定，270
         if (this.level_number < 10) {
             this.increment_target_number += 270;
         }
