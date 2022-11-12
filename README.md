@@ -2,8 +2,6 @@
 
 [original author](https://github.com/YangQing-Lin/GoldMiner-LiveServer)
 
----
-
 ### 如何开始
 
 #### [Vercel](https://mera-miner.nya-wsl.com/)
