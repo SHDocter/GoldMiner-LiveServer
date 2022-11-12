@@ -27,7 +27,7 @@ export class Shop extends AcGameObject {
     // 打开商店窗口
     start_new_shop() {
         console.log("function: start new shop");
-        this.playground.audio_music.play();  // 进入商店后播放音乐
+        // this.playground.audio_music.play();  // 进入商店后播放音乐   Nya-WSL 关闭BGM
 
         // 随机售卖技能
         for (let i = 0; i < this.shop_skill_is_selling.length; i++) {
