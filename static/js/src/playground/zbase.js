@@ -108,7 +108,7 @@ export class AcGamePlayground {
         this.audio_great = new Audio("/static/audio/great.ogg");
         this.audio_low = new Audio("/static/audio/low.ogg");
         this.audio_machine = new Audio("/static/audio/machine.ogg");
-        this.audio_music = new Audio("/static/audio/music.ogg");
+        // this.audio_music = new Audio("/static/audio/music.ogg");    Nya-WSL 关闭BGM
         this.audio_point = new Audio("/static/audio/point.ogg");
         this.audio_pop = new Audio("/static/audio/pop.ogg");
         this.audio_puff = new Audio("/static/audio/puff.ogg");
